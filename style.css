@@ -1,6 +1,9 @@
-.fundo-header{
+.bg-principal{
     background-color: #117700;
 }
 .img-logo{
     width: 110px;
+}
+.img-footer{
+    width: 150px;
 }
