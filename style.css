@@ -59,13 +59,13 @@ h2::after {
 .col-center {
 	margin: 0 auto;
 	float: none !important;
-}
-.carousel {
+} */
+/* .carousel {
 	margin: 50px auto;
 	padding: 0 70px;
-}
-.carousel-item {
-	color: #999;
+} */
+/* .carousel-item {
+	color: rgb(0, 0, 0);
 	font-size: 14px;
     text-align: center;
 	overflow: hidden;
@@ -127,6 +127,4 @@ h2::after {
 .carousel-indicators li.active {	
 	background: #555;		
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
-}
-
- */
+} */
