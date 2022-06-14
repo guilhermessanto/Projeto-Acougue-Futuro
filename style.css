@@ -27,6 +27,13 @@ body{
     
 
 }
+.lista-ingredientes{
+	list-style: none;
+	padding: 0;
+}
+
+
+
 /* parte felipe */
 /* h2 {
 	color: #333;
