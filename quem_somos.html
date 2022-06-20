@@ -56,51 +56,69 @@
       <!-- FIM navbar -->
 <!-- Forms --> 
 <section class="container d-flex justify-content-center mb-5 mt-5">
-    <div class="row featurette w-75 bg-light rounded-4 pb-3 pt-3">
-      <div class="col-md-7 order-5 d-grid align-content-center px-5">
-        <h2 class="featurette-heading fw-normal lh-1 d-grid">Quem somos</h2>
-        <p class="lead text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi unde reprehenderit quam enim earum! Cumque deleniti dignissimos, repellendus quia fuga expedita! Unde cumque minima dicta id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae rerum, dignissimos maxime quidem illum eligendi voluptas numquam? Autem aut placeat nemo vel culpa, ut blanditiis enim. Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      
-      <div class="col-md-5 mb-5 order-md-1  d-grid align-content-center">
-        <img class="m-auto logo-qs" src="img/logo-acougue-futuro.jpeg" alt="Logotipo Açougue do Futuro" title="Logotipo Açougue do Futuro">
-      </div>
+  <div class="row featurette bg-light rounded-4 py-5 my-2">
+    <div class="col-md-7 order-5 d-grid align-content-center px-5">
+      <h2 class="featurette-heading fw-normal lh-1 d-grid">Quem somos</h2>
+      <p class="lead text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi unde reprehenderit quam enim earum! Cumque deleniti dignissimos, repellendus quia fuga expedita! Unde cumque minima dicta id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae rerum, dignissimos maxime quidem illum eligendi voluptas numquam? Autem aut placeat nemo vel culpa, ut blanditiis enim. Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
     </div>
-  </section>
-
-  <section class="container d-flex justify-content-center rounded-5">
-    <div class="row">
-      <div class="text-bg-light rounded-1">
-        <h2 class="text-center">Contato</h2>
-      </div>
-
-      <div class="row m-auto rounded-1">
-        <form class="row mb-5 m-auto">    
-          <div class="col">
-            <label for="exampleFormControlTextarea1" class="form-label">Nome: </label>
-            <input type="text" class="form-control" placeholder="Digite seu nome" aria-label="Digite seu nome">
-          </div>
-
-          <div class="col">
-            <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
-            <input type="email" class="form-control" id="colFormLabel" placeholder="Digite seu email">
-          </div>
-          
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Digite-nos sua mensagem" rows="3"></textarea>
-          </div>
-        
-          <div class="col-auto">
-            <button type="submit" class="btn btn-primary">ENVIAR</button>
-          </div>
-        
-        </form>
-      
-      </div>
+    
+    <div class="col-md-5 mb-5 order-md-1  d-grid align-content-center">
+      <img class="m-auto logo-qs" src="img/logo-acougue-futuro.jpeg" alt="Logotipo Açougue do Futuro" title="Logotipo Açougue do Futuro">
     </div>
-  </section>
-      
+  </div>
+</section>
+
+<!-- Formulario -->
+<section id="contato" class="container my-5">
+  <div class="row">
+      <div class="col-10 offset-2 m-auto">
+        <h2 class="pb-2 border-bottom">Entre em contato</h2>
+
+        <p>Prencha o formulario abaixo para entrar em contato conosco:</p>
+
+        <form class="row g-3">
+            <div class="col-md-4">
+              <label for="inputEmail4" class="form-label">Nome</label>
+
+              <!-- Colocar icon dentro do input -->
+              <div class="input-group">
+                  <div class="input-group-text"><i class="bi bi-person"></i></div>                  
+                <input type="text" class="form-control" id="inputEmail4">
+              </div>
+              <!-- Final do icon input -->
+            </div>
+            
+            <div class="col-md-4">
+              <label for="inputPassword4" class="form-label">E-mail</label>
+
+              <div class="input-group">
+                  <div class="input-group-text"><i class="bi bi-envelope-paper"></i></div>
+                <input type="text" class="form-control" id="inputEmail4">
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+                <label for="inputPassword4" class="form-label">Fone</label>
+
+                <div class="input-group">
+                  <div class="input-group-text"><i class="bi bi-phone"></i></div>
+                  <input type="tel" class="form-control" id="inputPassword4" placeholder="DDD + Fone">
+                </div>
+              </div>
+
+            <div class="col-12">
+              <label for="msg" class="form-label">Mensagem</label>
+                <textarea name="msg" id="msg" class="form-control" rows="8"></textarea>
+            </div>
+           
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+            </div>
+          </form>
+
+      </div>
+  </div>
+</section>
       <!-- Footer -->
       <div class="container-fluid bg-principal">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4 ">
