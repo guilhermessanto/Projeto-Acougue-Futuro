@@ -3,6 +3,9 @@ body{
     background-image: url(img/background.png);
     
 }
+.fundo-politica{
+	background-color: white;
+}
 .fonte{
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.8em;
@@ -28,9 +31,15 @@ body{
 
 
 .colorBottom {
-    background: #00a3ff;
+    background: #0edf38;
     text-transform: uppercase;
     border-radius: 15px;
+	color: white;
+}
+.colorBottom:hover {
+	background: #0db22e;
+	color: white;
+    
 }
 .produto-avulso{
     max-width: 80%;
@@ -44,4 +53,5 @@ body{
 .logo-qs{
 	width: 80%;
 }
+
 
